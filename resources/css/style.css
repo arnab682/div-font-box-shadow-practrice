@@ -1,0 +1,252 @@
+.test {
+	border: 6px solid red;
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+}
+.test1 {
+	border: 6px solid red;
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.test2 {
+	border: 6px solid red;
+	min-width: 300px;
+	height: 300px;
+	padding: 10px;
+}
+.test3 {
+	border: 6px solid red;
+	width: 300px;
+	min-height: 300px;
+	padding: 10px;
+}
+.test4 {
+	border: 6px solid red;
+	min-width: 300px;
+	height: 300px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.test5 {
+	border: 10px solid red;
+	width: 300px;
+	min-height: 300px;
+	padding: 10px;
+	box-sizing: content-box;
+}
+.test6 {
+	border: 6px solid red;
+	min-width: 300px;
+	min-height: 300px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.test7 {
+	border: 50px solid red;
+	width: 300px;
+	padding: 50px;
+	box-sizing: border-box;
+}
+.test8 {
+	border: 50px solid red;
+	width: 300px;
+	padding: 50px;
+	box-sizing: content-box;
+}
+.test9 {
+	border: 50px solid red;
+	height: 300px;
+	padding: 50px;
+	box-sizing: border-box;
+}
+.test10 {
+	border: 50px solid red;
+	height: 300px;
+	padding: 50px;
+	box-sizing: content-box;
+}
+.test11 {
+	border: 6px solid red;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	overflow: scroll;
+}
+.test12 {
+	border: 6px solid red;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	overflow: hidden;
+}
+.test13 {
+	border: 6px solid red;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	overflow: auto;
+}
+.test14 {
+	border: 6px solid red;
+	height: 200px;
+	padding: 10px;
+	overflow: visible;
+}
+.test15 {
+	border: 6px solid red;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	overflow-x: auto;
+}
+.test16 {
+	border: 6px solid red;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	overflow-y: auto;
+}
+.boxShadow {
+	border: 2px solid red;
+	width: 100px;
+	height: 100px;
+	box-shadow: 4px 4px 4px 4px green;
+}
+.boxShadow1 {
+	border: 2px solid red;
+	width: 100px;
+	height: 100px;
+	box-shadow: -4px 4px 4px 4px green;
+}
+.boxShadow2 {
+	border: 2px solid red;
+	width: 100px;
+	height: 100px;
+	writing-mode: vertical-lr;
+	box-shadow: 4px 4px 4px 10px green inset;
+}
+.boxShadow3 {
+	border: 2px solid red;
+	width: 100px;
+	height: 100px;
+	writing-mode: sideways-lr;
+	box-shadow: -4px 4px 4px 10px green inset;
+}
+.boxShadow4 {
+	border: 2px solid red;
+	width: 100px;
+	height: 100px;
+	height: 200px;
+    width: 100%;
+    font-size: 200px;
+    text-align: center;
+    color: #fcbbc1;
+    text-shadow: 6px 8px 0 #ff418a,8px 10px 0 #5d2145,+12px 14px 0 #5c2248;
+    font-family:Myriad Pro;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.test17 {
+	border: 2px solid red;
+	width: 260px;
+	height: 200px;
+}
+.test18 {
+	border: 2px solid red;
+	width: 260px;
+	height: 200px;
+}
+
+.test19 {
+	border: 2px solid red;
+	width: 260px;
+	height: 200px;
+	float: left;
+}
+.test20 {
+	border: 2px solid red;
+	width: 260px;
+	height: 230px;
+	float: left;
+}
+.test21 {
+	border: 2px solid red;
+	width: 260px;
+	height: 300px;
+	float: right;
+}
+.test22 {
+	border: 2px solid red;
+	width: 260px;
+	height: 300px;
+	clear: left;
+}
+.test23 {
+	border: 2px solid red;
+	width: 260px;
+	height: 300px;
+	clear: right;
+}
+.test24 {
+	border: 2px solid red;
+	width: 260px;
+	height: 300px;
+	clear: both;
+}
+.test25 {
+	border: 2px solid red;
+	width: 260px;
+	height: 300px;
+	font-size: 20px;
+}
+.test26 {
+	border: 2px solid red;
+	width: 260px;
+	height: 300px;
+	font-size: 12px;
+	font-family: arial,Helvetica,verdana;
+}
+.test27 {
+	border: 2px solid red;
+	width: 260px;
+	height: 300px;
+	font-size: 16px;
+	font-family: ;
+	font-weight: bold; /*bolder, lighter following parent font-weight*/
+}
+.test28 {
+	border: 2px solid red;
+	width: 260px;
+	height: 300px;
+	font-size: 18px;
+	font-family: arial;
+	font-style: italic; /*oblique same to italic*/
+}
+.test29 {
+	border: 2px solid red;
+	width: 260px;
+	height: 300px;
+	font-size: 18px;
+	font-family: arial;
+	font-style: italic; /*oblique same to italic*/
+	line-height: 25px;
+}
+.test30 {
+	border: 2px solid red;
+	width: 260px;
+	height: 300px;
+	font-size: 18px;
+	font-family: arial;
+	font-style: italic; /*oblique same to italic*/
+	font-variant: small-caps;
+}
+.test31 {
+	border: 2px solid red;
+	width: 260px;
+	height: 300px;
+	font: oblique small-caps bold 20px/30px arial;
+}
